@@ -1,0 +1,420 @@
+﻿
+.header
+{
+	background-image: url("17.jpg");
+    background-attachment: ;
+    background-size: cover;
+    background-position: full image;
+	height:600px;
+	margin-top:0px;
+}
+@media screen and (max-width:1000px ){
+	.header{
+		width: 480px;
+	}
+}
+.header img
+{
+	margin-left:0px;
+	margin-top:10px;
+	position:fixed;
+}
+@media screen and (max-width:1000px ){
+	.header img{
+		width: 480px;
+	}
+}
+/*-----about-----*/
+.head-about
+{
+	margin-left:100px;
+}
+@media screen and (max-width:1000px ){
+	.head-about{
+        margin-left: 10px;
+	}
+}
+.body-about
+{
+	text-align:left;
+	width:230px;
+	height:420px;
+	display:inline-block;
+	margin-left:10px;	
+	margin-top:50px;
+	background-color:#CCCCCC;
+}
+@media screen and (max-width:1000px ){
+	.body-about{
+		width: 430px;
+        margin-left: 0px;
+        height: 300px;
+	}
+}
+.body-about .fa
+{
+	font-size:50px;
+	border-radius:120px;
+	background-color:white;
+	padding:10px;
+	margin-top:-10px;
+	margin-left:10px;
+	color:goldenrod;
+	
+}
+.body-about p
+{
+	margin-left:10px;
+}
+.head-about h4
+{
+	background-color:white;
+	margin-top:-10px;
+	padding:10px;
+	margin-left:10px;
+	text-align:;
+	width:210px;
+}
+
+/*----team----*/
+.head-content
+{
+	margin-left:80px;
+    
+    
+}
+@media screen and (max-width:1000px ){
+	.head-content{
+		width: 480px;margin-left: 10px;
+	}
+}
+.container img
+{
+	height:140px;
+	width:140px;
+	border-radius:20px;
+	
+}
+h1
+{
+	width:320px;
+	font-family:"Courier New";
+	border-bottom:thick;
+	border-bottom-color:goldenrod;
+	border-bottom-style:solid;
+	border-bottom-width:10px;
+	border-collapse:collapse;
+	text-align:left;
+	margin-left: 10px;
+	padding-top: 50px;
+}
+@media screen and (max-width:1000px ){
+	h1{
+		margin-left: 10px;
+	}
+}
+.body-content
+{
+	text-align:center;
+	width:160px;
+	display:inline-block;
+	margin-left:20px;	
+	margin-top:60px;
+background-color:#CCCCCC;
+    
+}
+.body-content .fa
+{
+	font-size:20px;
+	border-radius:10px;
+	background-color:#CCCCCC;
+	padding:10px;
+	margin-top:-10px;
+	color:goldenrod;
+	
+}
+.body-content .fa:hover
+{
+	background-color:lime;
+}
+/*-------------Services------------*/
+#service
+{ 
+    margin-top:50px;
+    margin-left: 0px;
+}
+@media screen and (max-width:1000px ){
+	#service{
+		margin-left: 10px;
+	}
+}
+.service
+{
+    margin-left:100px;    
+}
+@media screen and (max-width:1000px ){
+	.service{
+		width: 480px;margin-left: 0px;
+	}
+}
+.single-service
+{
+    margin-left:10px;
+    margin-top:50px;
+    display:;  
+    width: 231px;
+    background-color: #CCCCCC;
+    transition: 0.5s;
+    padding: 20px;
+    display: inline-block;
+  
+    
+}
+@media screen and (max-width:1000px ){
+	.single-service{
+		margin-left:10px;width: 430px;
+	}
+}
+.single-service:hover
+{
+    box-shadow: 0 5px 20px #333;
+}
+.service-head
+{
+    background-color: goldenrod;
+    display:  inline-block;
+    float: ;
+    padding: 5px 5px;
+    width: 100%;
+    text-align: center;
+}
+.service-head h2
+{
+    color: #fff;
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.service-head p
+{
+    color: yellow;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+
+.service-content
+{
+    color: black;
+    display: inline-block;
+    float: ;
+    width: 100%;
+
+
+}
+ul li:last-child
+{
+    border: none;
+}
+.service-content ul li
+{
+    border-bottom: 5px solid #fff;
+    padding: 15px 1px;
+    list-style: none;
+ 	margin-left:-40px;
+}
+
+/*----testimonials-------*/
+#testimonials
+{
+	
+	
+}
+.testimonial
+{
+	display:inline-block;
+	margin-left:10px;	
+	margin-top:50px;
+}
+@media screen and (max-width:1000px ){
+	.testimonial{
+		margin-left: 20px;
+	}
+}
+.testimonial-box
+{
+	margin-left:140px;
+}
+@media screen and (max-width:1000px ){
+	.testimonial-box{
+		width: 480px;margin-left: 10px;
+	}
+}
+.testimonial-container
+{
+	margin-left:0px;
+	margin-top:20px;
+	width:228px;
+}
+
+.testimonial img
+{
+	width:228px;
+	height:200px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	
+}
+.testimonial-content
+{
+	margin-left:0px;
+	padding:10px;
+	background-color: #CCCCCC;
+	width:228px;
+	text-align:;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+@media screen and (max-width:1000px ){
+	.testimonial-content{
+		width: 430px;
+	}
+}
+blockquote
+{
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+.testimonial-content p
+{
+	color: goldenrod;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+/*----contacts-----*/
+@media screen and (max-width:1000px ){
+	#contacts{
+		display: none;
+	}
+}
+.contacts
+{
+	margin-left:130px;
+}
+.address
+{
+	margin-left:20px;
+	margin-top:70px;
+	background-color:aqua;
+	width:200px;
+	height:325px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	
+}
+#contacts h4
+{
+	margin-left:10px;
+	color:goldenrod;
+	width:100%;	
+}
+.geo
+{
+	background-color:gray;
+	margin-left:230px;
+	width:200px;
+	margin-top:-325px;
+	height:200px;
+}
+.geo h4
+{
+	margin-left:40px;
+}
+.directions
+{
+	background-color:gray;
+	width:500px;
+	margin-left:230px;
+	margin-top:10px;
+	height:115px;
+	border-bottom-right-radius: 20px;
+}
+.directions h4
+{
+	margin-left:200px;
+}
+.email
+{
+	background-color:lime;
+	margin-left:440px;
+	width:290px;
+	margin-top:-200px;
+	height:70px;
+	border-top-right-radius: 20px;
+}
+.email h4
+{
+	margin-left:0px;
+	
+}
+.contacts h4
+{
+	margin-left:0px;
+	
+}
+
+.contacts-box
+{
+	background-color:#33CCCC;
+	margin-left:440px;
+	width:290px;
+	margin-top:-245px;
+	height:120px;
+
+}
+
+.contacts p, um
+{
+	margin-left:10px;
+}
+
+/*----Footer----*/
+
+
+
+.footer
+{
+	background-color:black;
+	margin-top:265px;
+	color: #CCCCCC;
+	width:100%;
+	display: inline-block!important;
+	padding:10px;
+}
+
+.footer a
+{
+	color: white;
+	margin-left: 20px;
+}
+.footer a:hover
+{
+	color: lime;
+}
+@media screen and (max-width:1000px ){
+	.footer{
+		margin-top: 60px;width: 480px;
+	}
+}
+
+
+
+
+
+
+
