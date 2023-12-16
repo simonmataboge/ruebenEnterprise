@@ -378,7 +378,7 @@ p, ul {
 }
 @media screen and (max-width:400px ) {
     .service-container {
-        margin-left: 0px;
+        margin-left: 20px;
     }
 }
 .service-box 
