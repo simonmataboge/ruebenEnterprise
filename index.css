@@ -396,11 +396,8 @@ p, ul {
         margin-top: 40px;
     }
 }
-service-container service-box {
-    position: relative;
-    display: flex;
-    box-shadow: 0 0 1rem #0ab79c;
-    width:300px;
+.service-box {
+    margin-left:20px;
 
 }
 service-box img
