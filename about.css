@@ -1,8 +1,4 @@
-@media screen and (max-width:1000px ) {
-    .menu {
-        font-size: 14px;
-    }
-}
+
 
 .menu {
     margin-top: 20px;
@@ -15,6 +11,7 @@
 @media screen and (max-width:1000px ) {
     .menu {
         width:480px;
+        font-size: 14px;
     }
 }
 @media screen and (max-width:400px ) {
@@ -46,7 +43,6 @@
     font-size: 30px;
     font-weight: bolder;
     margin-top: -100px;
-    margin-left: 200px;
 }
 
 @media screen and (max-width:1000px ) {
