@@ -71,6 +71,12 @@ body {
         height: 400px;
     }
 }
+@media screen and (max-width:1000px ) {
+    .home {
+        width: 490px;
+        height: 400px;
+    }
+}
 .change-text {
     margin-left:160px;
 }
@@ -350,7 +356,7 @@ p, ul {
 
 @media screen and (max-width:400px ) {
     .services {
-        margin-left: 100px;
+        margin-left: 40px;
         height: 450px;
         width: 280px;
         text-align: center;
@@ -366,6 +372,11 @@ p, ul {
 
 }
 @media screen and (max-width:1000px ) {
+    .service-container {
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width:400px ) {
     .service-container {
         margin-left: 40px;
     }
@@ -560,7 +571,7 @@ textarea{
 @media screen and (max-width:400px ) {
     .footer {
         width: 500px;
-        margin-top: 400px;
+        margin-top: 100px;
     }
 }
 
