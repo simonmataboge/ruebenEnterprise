@@ -12,10 +12,14 @@
     position: relative;
 
 }
-
 @media screen and (max-width:400px ) {
     .menu {
-        width: 500px;
+        width:480px;
+    }
+}
+@media screen and (max-width:400px ) {
+    .menu {
+        width: 490px;
     }
 }
 
@@ -51,7 +55,12 @@
         margin-top:-82px;
     }
 }
-
+@media screen and (max-width:400px ) {
+    .logo2 {
+        font-size:10px;
+        margin-top:-82px;
+    }
+}
 .header {
     text-align: center;
     padding: 10px;
@@ -59,7 +68,16 @@
     padding-top: 20px;
     position: absolute;
 }
-
+@media screen and (max-width:1000px ) {
+    .header {
+        width: 480px;
+    }
+}
+@media screen and (max-width:1400px ) {
+    .header {
+        width: 490px;
+    }
+}
 .header a {
     margin-left: 20px;
     color: black;
@@ -72,10 +90,14 @@
 
 @media screen and (max-width:1000px ) {
     .header a {
-        
+        margin-left: 10px;
     }
 }
-
+@media screen and (max-width:400px ) {
+    .header a {
+        margin-left: 10px;
+    }
+}
 
 .skills-bar {
     width: 400px;
@@ -461,7 +483,7 @@ p, ul {
 @media screen and (max-width:400px ) {
     .footer {
         width: 500px;
-        margin-top: 400px;
+        margin-top: 40px;
     }
 }
 
