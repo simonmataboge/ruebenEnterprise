@@ -337,7 +337,7 @@ p, ul {
 @media screen and (max-width:1000px ) {
     #services {
         width: 480px;
-        height: 900px;
+        height: 600px;
     }
 }
 .services
@@ -364,32 +364,32 @@ p, ul {
 
     }
 }
-.service-container {
+.service {
     display: inline-block;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2.5rem;
-    align-items: center;
-
 }
 @media screen and (max-width:1000px ) {
-    .service-container {
+    .service {
         margin-left: 40px;
     }
 }
 @media screen and (max-width:400px ) {
-    .service-container {
+    .service {
         margin-left: 40px;
     }
 }
 .service-box 
 {
-    position:relative;
-    overflow:hidden;
-    display:inline-block;    
+    
     width:300px;
-    height:400px;
+    height:300px;
     box-shadow:0 0 1rem #0ab79c;
     margin-left:10px;
+	transition: all ease 0.6s;
+	
+	
+}
+.service-box:hover{
+	transform: rotate3d(1,1,0,20deg);
 }
 @media screen and (max-width:1000px ) {
     .service-box {
@@ -401,23 +401,60 @@ p, ul {
         margin-left: 30px;
     }
 }
-service-box img
+
+
+#supply
 {
-    width:100%;
+		
+	background-image: url( maarten.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.service-box .service-layer {
-    color:white;
-    background: linear-gradient(rgba(0, 0, 0, 1 ), #0ab79c);
-    text-align:center;
-    padding:10px;
+#clean
+{
+		
+	background-image: url( olumide.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-
-
-    .service-box img {
-        height: 280px;
-        width: 305px;
-    }
-
+#const
+{
+		
+	background-image: url( gleisson.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.overlay{
+	height: 100%;
+	width: 100%;
+	background-color: #0ab79c;
+	opacity: 0;
+	transition: all ease 0.6s;
+	border-radius: 5px;
+	
+}
+.overlay:hover
+{
+	opacity: 1;
+	
+}
+.overlay h4
+{
+	padding-top: 30px;
+	font-size: 30px;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+}
+.overlay p
+{
+	padding-top: 20px;
+	color: white;
+	font-weight: 100;
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 50px;
+}
 /*---portfolio-----*/
 @media screen and (max-width:1000px ) {
     #portfolio {
@@ -477,7 +514,6 @@ service-box img
 .testimonial:hover {
     box-shadow: 0 5px 20px #0ab79c;
 }
-
 
 /*---contacts-----*/
 .contacts {
