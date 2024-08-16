@@ -315,7 +315,7 @@ p, ul {
 }
 @media screen and (max-width:400px ) {
     .social-content{
-        margin-left: 0px;
+        margin-left: -100px;
     }
 }
 .social-content-right {
