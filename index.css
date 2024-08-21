@@ -109,7 +109,7 @@ body {
 .home h1 {
     padding-top: 140px;
     font-family: "Rosewood Std Regular";
-    color: #b04ff6;
+    color: #0ab79c;
     font-size:50px;
     font-weight:bold;
 }
@@ -139,16 +139,19 @@ h1 {
     }
 }
 .buy-btn {
-    padding: 10px;
-    border-color: #cc6600;
-    font-size: 16px;
+    padding: 5px;
+    border-color: ;
+    font-size: 20px;
+	font-weight: bold;
     color: #0ab79c;
-    border: 2px solid #0ab79c;
-    box-shadow: 0 0 0.9rem #0ab79c;
 }
     .buy-btn:hover {
         text-decoration: none;
         color: #b04ff6;
+		border: thick;
+    border: 2px solid #b04ff6;
+    box-shadow: 0 0 0.9rem #b04ff6;
+		border-radius: 7px;
     }
 /*------about-------*/
 .about {
@@ -206,6 +209,7 @@ h1 {
     border: thick;
     border: 2px solid #0ab79c;
     box-shadow: 0 0 0.9rem #0ab79c;
+	padding-bottom: 10px;
 }
 
 @media screen and (max-width:1000px ) {
