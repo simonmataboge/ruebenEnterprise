@@ -518,7 +518,7 @@ p, ul {
 
 /*------testimonials-------*/
 #testimonials {
-    height: 500px;
+    height: 400px;
     margin-top: 10px;
 }
 
@@ -599,16 +599,25 @@ p, ul {
 .right .card {
     margin-left: 100px;
     margin-top: 20px;
-    background-color: #CC9900;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 1 ), #0ab79c);
     width: 800px;
-    color: #111;
     height: 200px;
     font-family: "Arial Black";
     text-align: center;
-    font-size:30px;
+    font-size:20px;
     text-decoration:none;
+	padding-top: 60px;
 }
-
+    .right .card:hover {
+        text-decoration: none;
+        color: #111;
+		border: thick;
+    border: 2px solid #b04ff6;
+    box-shadow: 0 0 0.9rem #b04ff6;
+		border-radius: 7px;
+		background-color:#b04ff6; 
+    }
 @media screen and (max-width:1000px ) {
     .right .card {
         margin-left: 10px;
@@ -619,6 +628,90 @@ p, ul {
 
 .right .card span{
     text-align:center;
+}
+/*---contacts-----*/
+.contacts {
+    height: 550px;
+    margin-top: 100px;
+	    background-image: linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.10)), url("edward.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: full image;
+	
+}
+
+@media screen and (max-width:1000px ) {
+    .contacts {
+        height: 500px;
+		width: 490px;
+    }
+}
+
+.contact-box {
+    background-color: ;
+    display: inline-block;
+    width: 340px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+@media screen and (max-width:1000px ) {
+    .contact-box {
+        margin-top:50px;
+        margin-left:20px;
+    }
+}
+
+.contacts p {
+    color: ;
+    margin-left: 50px;
+}
+
+.call {
+    margin-right: 500px;
+    margin-top: 70px;
+    color: ;
+}
+
+@media screen and (max-width:1000px ) {
+    .call {
+        width: 450px;
+        margin-top: 40px;
+    }
+}
+
+.whatsapp {
+    display:inline-block;
+    width:240px;
+}
+
+
+
+.contact-box .fa {
+    background-color: #0ab79c;
+    margin-left: 50px;
+    font-size: 25px;
+    border-radius: 70px;
+}
+
+input{
+    padding:3px;
+    width:410px;
+}
+textarea{
+	width: 410px;
+	height: 100px;
+	
+}
+.buy-btn{
+    width:200px;
+    margin-top:20px;
+        text-decoration: none;
+        color: #111;
+		border: thick;
+    border: 2px solid #b04ff6;
+    box-shadow: 0 0 0.9rem #b04ff6;
+		border-radius: 7px;
+		background-color:#b04ff6; 
 }
 /*-----footer------*/
 .footer {

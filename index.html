@@ -43,7 +43,8 @@
             </div>
             <div class="link">
                 <a class="buy-btn" href="about.html">About Me</a>
-                <a class="buy-btn" href="portfolio.html">Portfolio</a>
+                <a class="buy-btn" href="
+										 portfolio.html">Portfolio</a>
             </div>
         </div>
     </div>
@@ -197,17 +198,39 @@
             <div class="form">
                 <h1>Get in touch</h1>
                 <div class="contact-box">
-                    <h2>Work with us or query?</h2>
-                    <p>For query regarding my services you can get in touch </p>
-                    <div class="whatsapp">
-                        <i class="fa fa-whatsapp"></i>
-                        <p>Call or Whatsapp us<br />+27736687519<br />malulekereuben23@gmail.com</p>
-                    </div>
-                    <div class="whatsapp">
-                        <i class="fa fa-map-marker"></i>
-                        <p>Our location<br />564 Block C<br />Letlhabile</p>
-                    </div>
+					<div class="box">
+						<div class="content-stanza-work">
+						<h6>Stay in touch with us</h6>
+							<button type="button" class="collapsible"><b> <i class="fa fa-whatsapp"></i> WhatsApp or <i class="fa fa-phone"></i> Call</b></button>
+								<div class="collapse-content">
+									<p> <i class="fa fa-whatsapp"></i> 073 668 7519 <br> <i class="fa fa-phone"></i> 073 668 7519</p>
+								</div>
+							<button type="button" class="collapsible"><b> <i class="fa fa-envelope"></i> Email Address</b></button>
+								<div class="collapse-content">
+									<p> <i class="fa fa-male"></i> malulekereuben23@gmail.com <br> <i class="fa fa-suitcase"></i> malulekereuben23@gmail.com</p>
+								</div>
+							<button type="button" class="collapsible"><b> <i class="fa fa-map-marker"></i> Physical Address</b></button>
+								<div class="collapse-content">
+									<p> <i class="fa fa-map-marker"></i> 599 Block G <br><i class="fa fa-map-marker"></i>  Letlhabile <br> <i class="fa fa-map-marker"></i>  0264</p>
+								</div> 
+						</div>
+						<script>
+							var coll = document.getElementsByClassName("collapsible");
+							var i;
 
+								for (i = 0; i < coll.length; i++) {
+								  coll[i].addEventListener("click", function() {
+									this.classList.toggle("active");
+									var content = this.nextElementSibling;
+									if (content.style.display === "block") {
+									  content.style.display = "none";
+									} else {
+									  content.style.display = "block";
+									}
+								  });
+								}
+						</script>
+					</div>
                 </div>
                 <div class="contact-box">
                     <p style="text-align:center; color:red;">Leave Us A Message</p>

@@ -885,3 +885,94 @@ textarea{
 
 
 
+
+
+
+
+
+
+
+
+
+
+.content-stanza
+{
+    margin-left: -240px; 
+}
+@media screen and (max-width:1000px ){
+	.content-stanza{
+	margin-left: 0px;
+        
+	}
+}
+.content-stanza-work
+{
+    margin-left: 10px; 
+}
+.collapsible {
+  color: black;
+  cursor: pointer;
+  padding: 5px;
+  width: 400px;
+  border: none;
+  margin-top: 10px;
+  text-align: left;
+  outline: none;
+  margin-left: 10px;
+	background-color: #0ab79c;
+}
+.content-stanza-work img
+{
+	height: 300px;
+	width: 230px;
+	padding: 10px;
+	border-radius: 16px;
+    margin-left: 10px;
+}
+.active, .collapsible:hover {
+          text-decoration: none;
+        color: #b04ff6;
+		border: thick;
+    border: 2px solid #b04ff6;
+    box-shadow: 0 0 0.9rem #b04ff6;
+		border-radius: 7px;
+	border: none;
+}
+
+.collapse-content 
+{
+  padding: 0 10px;
+  display: none;
+  overflow: hidden;
+   margin-top: 10px; 
+margin-left: 10px;
+	width: 400px;
+}
+.collapse-content .fa
+{
+	font-size: 16px;
+	color: #0ab79c;
+	background-color: transparent;
+}
+@media screen and (max-width:1000px ){
+	.collapsible {
+	width: 420px;
+        
+	}
+}
+@media screen and (max-width:400px ){
+	.collapsible {
+	width: 490px;
+        
+	}
+}
+.collapse-content p
+{
+	margin-left: -50px;
+}
+
+
+
+
+
+
