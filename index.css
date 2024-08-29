@@ -319,7 +319,7 @@ p, ul {
 }
 @media screen and (max-width:400px ) {
     .social-content{
-        margin-left: -10px;
+        margin-left: 10px;
     }
 }
 .social-content-right {
@@ -495,6 +495,7 @@ p, ul {
 @media screen and (max-width:400px ) {
     .service-box {
         margin-left: 30px;
+		width: 360px;
     }
 }
 
@@ -588,6 +589,12 @@ p, ul {
 .testimonial img:hover {
     transform:scale(1.1);
 }
+@media screen and (max-width:400px ) {
+    .testimonial img{
+       width: 270px;
+		height: 200px;
+    }
+}
 .testimonial p {
     padding: 0px;
     font-size: 16px;
@@ -642,7 +649,12 @@ p, ul {
 	width: 270px;
 }
 
-
+@media screen and (max-width:400px ) {
+    .clients-box img{
+       width: 350px;
+		height: 250px;
+    }
+}
 
 
 
@@ -920,6 +932,12 @@ textarea{
   outline: none;
   margin-left: 10px;
 	background-color: #0ab79c;
+}
+@media screen and (max-width:400px ){
+	.content-stanza{
+	width: 360px;
+        
+	}
 }
 .content-stanza-work img
 {
