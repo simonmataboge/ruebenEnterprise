@@ -436,6 +436,12 @@ p, ul {
         height: 700px;
     }
 }
+@media screen and (max-width:400px ) {
+    #services {
+        width: 480px;
+        height: 500px;
+    }
+}
 .services
 {
     margin-top:80px;
@@ -496,7 +502,7 @@ p, ul {
     .service-box {
         margin-left: 0px;
 		width: 360px;
-		height: 290px;
+		height: 280px;
     }
 }
 
@@ -560,6 +566,12 @@ p, ul {
         height:1000px;
     }
 }
+@media screen and (max-width:1000px ) {
+    #portfolio {
+        margin-top: 620px;
+        height:1100px;
+    }
+}
 #testimonial {
     margin-top: 0px;
     height: 400px;
@@ -583,7 +595,7 @@ p, ul {
 @media screen and (max-width:400px ) {
     .testimonial {
         margin-left: 60px;
-        margin-top: 0px;
+        margin-top: 20px;
     width: 340px;
     height: 280px;
     }
@@ -643,7 +655,7 @@ p, ul {
 }
 @media screen and (max-width:400px ) {
     .clients {
-        height: 1200px;
+        height: 1100px;
 		margin-left: 20px;
     }
 }
@@ -658,7 +670,7 @@ p, ul {
 }
 @media screen and (max-width:400px ) {
     .clients-box {
-		margin-left: 40px;
+		margin-left: 60px;
     }
 }
 .clients-box img
@@ -830,7 +842,7 @@ textarea{
 @media screen and (max-width:400px ) {
     .footer {
         width: 500px;
-        margin-top: 100px;
+        margin-top: 40px;
     }
 }
 
