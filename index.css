@@ -568,8 +568,8 @@ p, ul {
 }
 @media screen and (max-width:400px ) {
     #portfolio {
-        margin-top: 620px;
-        height:1100px;
+        margin-top: 590px;
+        height:1160px;
     }
 }
 #testimonial {
