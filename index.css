@@ -566,7 +566,7 @@ p, ul {
         height:1000px;
     }
 }
-@media screen and (max-width:1000px ) {
+@media screen and (max-width:400px ) {
     #portfolio {
         margin-top: 620px;
         height:1100px;
