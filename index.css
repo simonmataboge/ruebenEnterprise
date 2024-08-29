@@ -502,7 +502,7 @@ p, ul {
     .service-box {
         margin-left: 40px;
 		width: 340px;
-		height: 285px;
+		height: 286px;
     }
 }
 
@@ -568,7 +568,7 @@ p, ul {
 }
 @media screen and (max-width:400px ) {
     #portfolio {
-        margin-top: 590px;
+        margin-top: 620px;
         height:1160px;
     }
 }
