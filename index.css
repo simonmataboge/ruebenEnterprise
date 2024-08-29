@@ -500,7 +500,7 @@ p, ul {
 }
 @media screen and (max-width:400px ) {
     .service-box {
-        margin-left: 60px;
+        margin-left: 40px;
 		width: 340px;
 		height: 285px;
     }
@@ -594,7 +594,7 @@ p, ul {
 }
 @media screen and (max-width:400px ) {
     .testimonial {
-        margin-left: 60px;
+        margin-left: 40px;
         margin-top: 20px;
     width: 340px;
     height: 285px;
