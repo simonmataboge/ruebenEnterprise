@@ -418,6 +418,7 @@ p, ul {
 
     .content-services p {
         font-style: oblique;
+		color:black;
     }
 
 
@@ -468,10 +469,12 @@ p, ul {
 }
 .service {
     display: inline-block;
+	margin-top: 80px;
 }
 @media screen and (max-width:1000px ) {
     .service {
         margin-left: 40px;
+		margin-top: 0px;
     }
 }
 @media screen and (max-width:400px ) {
@@ -483,7 +486,7 @@ p, ul {
 {
     
     width:270px;
-    height:300px;
+    height:336px;
     box-shadow:0 0 1rem #0ab79c;
     margin-left:10px;
 	transition: all ease 0.6s;
@@ -560,10 +563,15 @@ p, ul {
 	padding-bottom: 50px;
 }
 /*---portfolio-----*/
+#portfolio
+{
+	height: 600px;
+}
+
 @media screen and (max-width:1000px ) {
     #portfolio {
         margin-top: 620px;
-        height:1000px;
+        height:1200px;
     }
 }
 @media screen and (max-width:400px ) {
@@ -578,10 +586,10 @@ p, ul {
 }
 
 .testimonial {
-    margin-left: 10px;
+    margin-left: 0px;
     margin-top: 10px;
     width: 270px;
-    height: 280px;
+    height: 345px;
     padding: 10px;
     display: inline-block;
 }
@@ -589,7 +597,7 @@ p, ul {
 @media screen and (max-width:1000px ) {
     .testimonial {
         margin-left: 80px;
-        margin-top: -20px;
+        margin-top: 20px;
     }
 }
 @media screen and (max-width:400px ) {
@@ -603,8 +611,9 @@ p, ul {
 .testimonial img {
     height: 150px;
     width: 200px;
-    margin-top: 80px;
+    margin-top: 40px;
     transition:.5s ease;
+	margin-left: 30px;
 }
 .testimonial img:hover {
     transform:scale(1.1);
@@ -615,15 +624,24 @@ p, ul {
 		height: 200px;
     }
 }
-.testimonial p {
-    padding: 0px;
+.top p {
+    padding: 10px;
     font-size: 16px;
-    margin-top: -37px;
     text-align: center;
     color: white;
-    border-radius: 20px;
+	background-color:#0ab79c;
+	border-top-right-radius: 60px;
+	border-bottom-left-radius: 60px;
 }
-
+.bottom p{
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+	background-color:#0ab79c;
+	border-bottom-right-radius: 60px;
+	border-top-left-radius: 60px;
+}
 .testimonial a {
     color: white;
 }
@@ -633,9 +651,14 @@ p, ul {
     font-size: 150px;
     margin-left: 10px;
 }
-
+.testimonial .image
+{
+	height: 220px;
+}
 .testimonial:hover {
     box-shadow: 0 5px 20px #0ab79c;
+	border-top-right-radius: 60px;
+	border-bottom-right-radius: 60px;
 }
 /*--testimonials---*/
 
@@ -649,8 +672,9 @@ p, ul {
 }
 @media screen and (max-width:1000px ) {
     .clients {
-        height: 900px;
+        height: 1100px;
 		margin-left: 40px;
+		margin-top: 100px;
     }
 }
 @media screen and (max-width:400px ) {
@@ -666,6 +690,7 @@ p, ul {
 @media screen and (max-width:1000px ) {
     .clients-box {
 		margin-left: 80px;
+		margin-top: 50px;
     }
 }
 @media screen and (max-width:400px ) {
@@ -675,7 +700,7 @@ p, ul {
 }
 .clients-box img
 {
-	height: 200px;
+	height: 300px;
 	width: 270px;
 }
 
@@ -694,7 +719,6 @@ p, ul {
 .dropdown
 {
 	margin-left:10px;
-	margin-top:-45px;	
     display: inline-block;
     
     
@@ -722,22 +746,22 @@ p, ul {
 .dropdown-menu
 {
 	  
-  position: absolute;
-  background-color: #f9f9f9;
+  position:;
+  background-color: black;
   min-width: 120px;
-  box-shadow: 0 5px 20px #0ab79c;
-  z-index: 1;
+	margin-top: -200px;
+  
+
 
 }
-
 .dropdown-menu p
 {
-    background-color: ;
-   margin-left: 0px;
-    color: black;	
-  padding: 5px;
-  text-decoration: none;
-  display: inline-block;
+    background-color:;
+    margin-left: 0px;
+    color: #0ab79c;	
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
 }
 @media screen and (max-width:1000px ){
 	.dropdown-menu a{
@@ -750,7 +774,7 @@ p, ul {
 
 
 .dropdown:hover .dropdown-menu {
-  display: block;
+  display: inline-block;
 }
 /*---contacts-----*/
 .contacts {
@@ -760,7 +784,7 @@ p, ul {
 
 @media screen and (max-width:1000px ) {
     .contacts {
-        height: 900px;
+        height: 700px;
     }
 }
 
